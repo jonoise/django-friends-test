@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Account</h1>
+    <p>Esta es la cuenta de: {{ account.get_full_name }}</p>
+
+    
+    {% if not account.friends.all %}
+    <p>no tienes amigos :(</p>
+    {% else %}
+    <p>mis amigos</p>
+    {% for friend in account.get_friends %}
+        <ul>
+        <li>{{ friend.account.get_full_name }}</li>
+        </ul>
+    {% endfor %}
+    {% endif %}
+</body>
+</html>
