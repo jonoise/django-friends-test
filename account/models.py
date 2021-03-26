@@ -42,4 +42,15 @@ class RemoveFriend(models.Model):
     owner = models.ForeignKey(User, on_delete=models.CASCADE, related_name='owner')
     affected = models.ForeignKey(User, on_delete=models.CASCADE, related_name='affected')
 
-    
+########## Friend Request Notification ##########
+class FriendRequestNotification(models.Model):
+    friend_request = models.ForeignKey(FriendRequest, on_delete=models.CASCADE, related_name='notification')
+    sender = models.ForeignKey(User, on_delete=models.CASCADE, related_name='notification_sender')
+    receiver = models.ForeignKey(User, on_delete=models.CASCADE, related_name='notification_receiver')
+
+    def __str__(self):
+        return f'Notification from {self.sender} to {self.receiver}'
+
+    def notify(self):
+        return f'{self.sender} te ha enviado una solicitud de amistad.'
+
