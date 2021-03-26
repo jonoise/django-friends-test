@@ -1,0 +1,186 @@
+[
+    {
+        "model": "languages.framework",
+        "pk": 1,
+        "fields": {
+            "language": 1,
+            "name": "Django"
+        }
+    },
+    {
+        "model": "languages.framework",
+        "pk": 2,
+        "fields": {
+            "language": 1,
+            "name": "Flask"
+        }
+    },
+    {
+        "model": "languages.framework",
+        "pk": 3,
+        "fields": {
+            "language": 1,
+            "name": "Pyramid"
+        }
+    },
+    {
+        "model": "languages.framework",
+        "pk": 4,
+        "fields": {
+            "language": 2,
+            "name": "React"
+        }
+    },
+    {
+        "model": "languages.framework",
+        "pk": 5,
+        "fields": {
+            "language": 2,
+            "name": "Angular"
+        }
+    },
+    {
+        "model": "languages.framework",
+        "pk": 6,
+        "fields": {
+            "language": 2,
+            "name": "Vue"
+        }
+    },
+    {
+        "model": "languages.framework",
+        "pk": 7,
+        "fields": {
+            "language": 2,
+            "name": "Nodejs"
+        }
+    },
+    {
+        "model": "languages.framework",
+        "pk": 8,
+        "fields": {
+            "language": 5,
+            "name": "Spring"
+        }
+    },
+    {
+        "model": "languages.framework",
+        "pk": 9,
+        "fields": {
+            "language": 5,
+            "name": "Strus"
+        }
+    },
+    {
+        "model": "languages.framework",
+        "pk": 10,
+        "fields": {
+            "language": 5,
+            "name": "Hibernate"
+        }
+    },
+    {
+        "model": "languages.framework",
+        "pk": 11,
+        "fields": {
+            "language": 6,
+            "name": "Beakr"
+        }
+    },
+    {
+        "model": "languages.framework",
+        "pk": 12,
+        "fields": {
+            "language": 6,
+            "name": "Plumber"
+        }
+    },
+    {
+        "model": "languages.framework",
+        "pk": 13,
+        "fields": {
+            "language": 7,
+            "name": "Akka"
+        }
+    },
+    {
+        "model": "languages.framework",
+        "pk": 14,
+        "fields": {
+            "language": 7,
+            "name": "Play"
+        }
+    },
+    {
+        "model": "languages.framework",
+        "pk": 15,
+        "fields": {
+            "language": 7,
+            "name": "Finch"
+        }
+    },
+    {
+        "model": "languages.framework",
+        "pk": 16,
+        "fields": {
+            "language": 8,
+            "name": "Laravel"
+        }
+    },
+    {
+        "model": "languages.framework",
+        "pk": 17,
+        "fields": {
+            "language": 8,
+            "name": "Symfony"
+        }
+    },
+    {
+        "model": "languages.framework",
+        "pk": 18,
+        "fields": {
+            "language": 8,
+            "name": "CodeIgniter"
+        }
+    },
+    {
+        "model": "languages.framework",
+        "pk": 19,
+        "fields": {
+            "language": 9,
+            "name": "Gin Gonic"
+        }
+    },
+    {
+        "model": "languages.framework",
+        "pk": 20,
+        "fields": {
+            "language": 9,
+            "name": "Beego"
+        }
+    },
+    {
+        "model": "languages.framework",
+        "pk": 21,
+        "fields": {
+            "language": 9,
+            "name": "Martini"
+        }
+    },
+    {
+        "model": "languages.framework",
+        "pk": 22,
+        "fields": {
+            "language": 13,
+            "name": ".NET"
+        }
+    },
+    {
+        "model": "languages.framework",
+        "pk": 23,
+        "fields": {
+            "language": 16,
+            "name": "Rails"
+        }
+    }
+]

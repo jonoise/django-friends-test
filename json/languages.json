@@ -1,0 +1,121 @@
+[
+    {
+        "model": "languages.language",
+        "pk": 1,
+        "fields": {
+            "name": "Python"
+        }
+    },
+    {
+        "model": "languages.language",
+        "pk": 2,
+        "fields": {
+            "name": "JavaScript"
+        }
+    },
+    {
+        "model": "languages.language",
+        "pk": 3,
+        "fields": {
+            "name": "C"
+        }
+    },
+    {
+        "model": "languages.language",
+        "pk": 4,
+        "fields": {
+            "name": "C++"
+        }
+    },
+    {
+        "model": "languages.language",
+        "pk": 5,
+        "fields": {
+            "name": "Java"
+        }
+    },
+    {
+        "model": "languages.language",
+        "pk": 6,
+        "fields": {
+            "name": "R"
+        }
+    },
+    {
+        "model": "languages.language",
+        "pk": 7,
+        "fields": {
+            "name": "Scala"
+        }
+    },
+    {
+        "model": "languages.language",
+        "pk": 8,
+        "fields": {
+            "name": "Php"
+        }
+    },
+    {
+        "model": "languages.language",
+        "pk": 9,
+        "fields": {
+            "name": "Go"
+        }
+    },
+    {
+        "model": "languages.language",
+        "pk": 10,
+        "fields": {
+            "name": "HTML"
+        }
+    },
+    {
+        "model": "languages.language",
+        "pk": 11,
+        "fields": {
+            "name": "CSS"
+        }
+    },
+    {
+        "model": "languages.language",
+        "pk": 12,
+        "fields": {
+            "name": "Pearl"
+        }
+    },
+    {
+        "model": "languages.language",
+        "pk": 13,
+        "fields": {
+            "name": "C#"
+        }
+    },
+    {
+        "model": "languages.language",
+        "pk": 14,
+        "fields": {
+            "name": "Dart"
+        }
+    },
+    {
+        "model": "languages.language",
+        "pk": 15,
+        "fields": {
+            "name": "Haskell"
+        }
+    },
+    {
+        "model": "languages.language",
+        "pk": 16,
+        "fields": {
+            "name": "Ruby"
+        }
+    },
+    {
+        "model": "languages.language",
+        "pk": 17,
+        "fields": {
+            "name": "SQL"
+        }
+    }
+]
